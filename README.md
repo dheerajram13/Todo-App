@@ -28,13 +28,20 @@ pip install -r requirements.txt
 ```
 
 ```
+python manage.py makemigrations
+```
+
+```
+python manage.py migrate
+```
+```
 python manage.py runserver
 ```
 open the browser and go to http://127.0.0.1:8000/
 ## Built With
 
 * [Python](https://www.python.org/)  
-* [Django](https://www.djangoproject.com/) - The Framework used to create server
+* [Django](https://www.djangoproject.com/) 
 
 
 ## Authors
